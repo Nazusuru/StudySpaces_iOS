@@ -34,7 +34,13 @@
                                             <segue destination="O8G-ZQ-Hpx" kind="presentation" id="JKD-ZI-mFq"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="GDSignInButton" id="Yd4-DO-DKZ"/>
+                                    <barButtonItem style="plain" id="Wpj-Dv-zsx">
+                                        <view key="customView" contentMode="scaleToFill" id="erw-Rg-agR" customClass="GIDSignInButton">
+                                            <rect key="frame" x="69" y="5.5" width="139" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -53,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1140" y="-555"/>
+            <point key="canvasLocation" x="1140" y="-555.47226386806597"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="1XO-Fy-e2J">
