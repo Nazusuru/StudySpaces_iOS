@@ -26,6 +26,14 @@
 				<string>com.googleusercontent.apps.1056789746338-8l22qnu855blbd0qc5ltv51okmv56t0e</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>CalHacks.StudySpaces</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42257BA11FA30CA300BEB7F6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42257BA01FA30CA300BEB7F6 /* StoreKit.framework */; };
+		42257BA31FA30CAC00BEB7F6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42257BA21FA30CAC00BEB7F6 /* AddressBook.framework */; };
+		42257BA51FA30CC500BEB7F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42257BA41FA30CC500BEB7F6 /* SystemConfiguration.framework */; };
 		42320B2C1F8A875800E3B29F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42320B2B1F8A875800E3B29F /* GoogleService-Info.plist */; };
 		4283C3291F899C420081013C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4283C3281F899C420081013C /* AppDelegate.swift */; };
 		4283C32B1F899C420081013C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4283C32A1F899C420081013C /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		04F790B0427BD139EE2AEAE0 /* Pods-StudySpaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudySpaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudySpaces/Pods-StudySpaces.debug.xcconfig"; sourceTree = "<group>"; };
 		162E55CEA24850D9FDFEAC35 /* Pods_StudySpaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudySpaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42257BA01FA30CA300BEB7F6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		42257BA21FA30CAC00BEB7F6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		42257BA41FA30CC500BEB7F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		42320B2B1F8A875800E3B29F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		42320B2D1F8A8B7000E3B29F /* StudySpaces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudySpaces-Bridging-Header.h"; sourceTree = "<group>"; };
 		4283C3251F899C420081013C /* StudySpaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySpaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42257BA51FA30CC500BEB7F6 /* SystemConfiguration.framework in Frameworks */,
+				42257BA31FA30CAC00BEB7F6 /* AddressBook.framework in Frameworks */,
+				42257BA11FA30CA300BEB7F6 /* StoreKit.framework in Frameworks */,
 				4283C33C1F899D4E0081013C /* MapKit.framework in Frameworks */,
 				4A7200D848AEF6B79CD6D92F /* Pods_StudySpaces.framework in Frameworks */,
 			);
@@ -82,6 +91,9 @@
 		4283C33A1F899D4E0081013C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42257BA41FA30CC500BEB7F6 /* SystemConfiguration.framework */,
+				42257BA21FA30CAC00BEB7F6 /* AddressBook.framework */,
+				42257BA01FA30CA300BEB7F6 /* StoreKit.framework */,
 				4283C33B1F899D4E0081013C /* MapKit.framework */,
 				162E55CEA24850D9FDFEAC35 /* Pods_StudySpaces.framework */,
 			);
